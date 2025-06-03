@@ -1,0 +1,10 @@
+id,name,label,type_IDs,dataType,widget,options,system
+1,id,ID,"101,102,103,104",short text,text input,,True
+2,name,Name,"101,102,103,104",short text,text input,,True
+3,description,Description,"101,102,103,104",long text,text area,,False
+4,status,Status,"101,102,103",short text,select,"Planned,In Progress,Completed",False
+5,owner,Owner,"101,102,103",short text,text input,,False
+6,start_date,Start Date,"101,102,103",date,date picker,,False
+7,end_date,End Date,"101,102,103",date,date picker,,False
+8,metric_value,Metric Value,104,number,number input,,False
+9,target_value,Target Value,104,number,number input,,False

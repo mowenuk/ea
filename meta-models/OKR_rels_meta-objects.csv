@@ -1,0 +1,4 @@
+id,name,reversename,description,fromMetaObjectID,toMetaObjectID
+201,has key result,is part of objective,Objective has associated key results,101,102
+202,drives initiative,is driven by key result,Key Result drives related initiatives,102,103
+203,measured by,measures,Key Result is measured by one or more metrics,102,104

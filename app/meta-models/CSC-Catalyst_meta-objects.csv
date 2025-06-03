@@ -1,0 +1,11 @@
+id,name,description,domain
+1,Business Objective,A strategic goal the enterprise aims to achieve,Business
+2,Strategic Initiative,A program designed to realize business objectives,Business
+3,Business Capability,An ability that an organization possesses to achieve a specific purpose,Business
+4,Change Initiative,"A transformation effort affecting processes, capabilities, or systems",Change
+5,Risk,A potential event that could negatively affect change outcomes,Governance
+6,Benefit,A measurable improvement resulting from change,Performance
+7,Stakeholder,An individual or group affected by or involved in the change,People
+8,Deliverable,An output produced as part of a change initiative,Change
+9,Process,A series of steps to achieve a business result,Business
+10,Service,A function provided to stakeholders or systems,Business

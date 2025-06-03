@@ -1,0 +1,7 @@
+id,name,description,domain
+301,Control,Security control as defined by ISO/IEC 27001 Annex A,Security Control
+302,Asset,Information asset that needs protection,Asset Management
+303,Risk,Potential event that could harm assets or organization,Risk Management
+304,Threat,Potential cause of an unwanted incident,Risk Management
+305,Vulnerability,Weakness that could be exploited by a threat,Risk Management
+306,Policy,Formal statement of security rules and guidelines,Governance

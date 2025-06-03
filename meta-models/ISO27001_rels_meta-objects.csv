@@ -1,0 +1,5 @@
+id,name,reversename,description,fromMetaObjectID,toMetaObjectID
+401,mitigates,is mitigated by,Control mitigates Risk,301,303
+402,is vulnerable to,can exploit,Asset is vulnerable to Threat,302,304
+403,has vulnerability,belongs to asset,Asset has vulnerability,302,305
+404,has control,controls,Policy has associated Controls,306,301

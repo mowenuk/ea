@@ -1,0 +1,8 @@
+id,name,label,type_IDs,dataType,widget,options,system
+1,id,ID,"1,2,3,4,5,6,7,8,9,10",short text,text input,,True
+2,name,Name,"1,2,3,4,5,6,7,8,9,10",short text,text input,,True
+3,owner,Owner,"1,4,6",short text,text input,,False
+4,status,Status,"1,3,4,6",short text,select,"Planned,Active,Retired",False
+5,lifecycle_stage,Lifecycle Stage,"4,6,9",short text,select,"Development,Test,Production",False
+6,confidentiality,Confidentiality,5,short text,select,"Public,Internal,Confidential,Restricted",False
+7,capex_opex,CapEx / OpEx,"3,6",short text,select,"CapEx,OpEx",False

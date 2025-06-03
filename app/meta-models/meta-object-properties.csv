@@ -1,0 +1,17 @@
+id,name,label,type_IDs,dataType,widget,icon,options,default_value,group,layout,system
+1,id,ID,"1,2,3,4,5,6,7,8,9,10",short text,text input,hash,,,System,one-third,TRUE
+2,object_type,Object Type,"1,2,3,4,5,6,7,8,9,10",short text,select,tags,,,System,two-thirds,TRUE
+3,text,Text,"1,2,3,4,5,6,7,8,9,10",long text,textarea,file-text,,,,half-left,TRUE
+4,owner,Owner,"1,2,3,4,5,6,7,8,9,10",short text,text input,person-add,,,System,half-right,TRUE
+5,comment,Comment,"1,2,3,4,5,6,7,8,9,10",long text,textarea,chat-left-text,,,,full-width,FALSE
+6,priority,Priority,"1,2,3,4,9",short text,single select,flag,"High,Medium,Low",Low,,quarter,FALSE
+7,duration,Duration,"1,2,3,4,",integer,spinner,hourglass,,5,,quarter,FALSE
+8,start_date,Start Date,"1,2,3",date,date picker,calendar-date,,,,quarter,FALSE
+14,end_date,End Date,"1,2,3",date,date picker,calendar-date,,,,quarter,FALSE
+16,elapsed_date,Elapsed Date,"1,2,3",formula,formula editor,star,"14,-,8",,,quarter,FALSE
+9,progress,Progress,"1,2,3",percentage,progress bar,bar-chart-line,"Used: danger:30,Free: success:20,Max: 80",,,full-width,FALSE
+10,volume,Volume,5,short text,text input,volume-up,,,,quarter,FALSE
+11,department,Department,"3,11",short text,single select,building,"Sales,Product Management,HR,Finance,Pre-Sales,Engineering,Marketing",,,full-width,FALSE
+12,criticality,Criticality,"1,2,3",integer,single choice color,exclamation-triangle,"High:Green:100,Medium:Red:50,Low:Blue:10",,,quarter,FALSE
+13,importance,Importance,"1,2,3",formula,formula editor,star,"7,*,12",,,quarter,FALSE
+,,,,,,,,,,,

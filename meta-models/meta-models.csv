@@ -1,0 +1,7 @@
+﻿id,name,Prefix,Description
+1,Default,,Default metamodel provided by MOWEN
+2,TOGAF,togaf_,TOGAF 9 Metamodel
+3,OKR,OKR_,Objectives and Key Results Framework
+4,ArchiMate,ArchiMate_,ArchiMate Framework
+5,ISO27001,ISO27001_, ISO27001 framework for information security management
+6,CSC Catalyst,CSC-Catalyst_,Catalyst is a set of processes and techniques for analysing a business situation and developing and implementing the best solution

@@ -1,0 +1,8 @@
+id,name,label,type_IDs,dataType,widget,options,group,layout,system
+1,id,ID,"1,2,3,4,5,6,7,8,9,10",short text,text input,,System,one-third,True
+2,name,Name,"1,2,3,4,5,6,7,8,9,10",short text,text input,,System,two-thirds,True
+3,owner,Owner,"1,3,4,6",short text,text input,,Business,half-right,False
+4,lifecycle_stage,Lifecycle Stage,"4,6,8",short text,select,"Development,Live,Retired",Lifecycle,half-left,False
+5,maturity,Capability Maturity,8,integer,range slider,"0,5,1",Assessment,half-left,False
+6,criticality,Criticality,"2,4,6",integer,single choice color,"High:Red:3,Medium:Yellow:2,Low:Green:1",Assessment,half-right,False
+7,strategy_alignment,Strategy Alignment,"9,10",integer,editable progress bar,"50,100",Strategy,full-width,False

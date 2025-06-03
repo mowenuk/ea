@@ -1,0 +1,6 @@
+id,name,reverseName,label,fromMetaObjectID,toMetaObjectID,system
+1,triggers,is triggered by,,3,3,False
+2,realizes,is realized by,,4,5,False
+3,flows to,flows from,,5,6,False
+4,accesses,is accessed by,,4,7,False
+5,supports,is supported by,,6,3,False

@@ -1,0 +1,11 @@
+id,name,description,domain
+1,Business Process,A set of related tasks that achieve a business goal,Business
+2,Requirement,A specification of what should be implemented,Business
+3,Project,An endeavor to deliver a solution,Business
+4,Application Component,Software that supports business processes,Application
+5,Data Entity,A logical data object,Data
+6,Technology Component,Technology used to support applications,Technology
+7,Location,Physical or virtual location,Technology
+8,Actor,A user or system that interacts with processes,Business
+9,Service,A unit of functionality exposed by components,Application
+10,Capability,A business ability delivered by processes and services,Business

@@ -1,0 +1,10 @@
+id,name,reversename,description,fromMetaObjectID,toMetaObjectID
+1,realizes,is realized by,One element realizes another,4,2
+2,serves,is served by,Application serves a business process,4,1
+3,accesses,is accessed by,Application accesses data,4,5
+4,assigned to,has assignment,Actor assigned to business process,8,1
+5,uses,is used by,Application uses technology,4,6
+6,located at,hosts,Component located at a place,6,7
+7,delivers,is delivered by,Process delivers capability,1,10
+8,exposes,is exposed by,Application exposes a service,4,9
+9,supports,is supported by,Service supports a business process,9,1

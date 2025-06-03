@@ -1,0 +1,12 @@
+id,name,description,icon,system
+1,Task,a piece of work to be done or undertaken,bag-check,TRUE
+2,Requirement,a thing that is needed or wanted,bookmark-check,TRUE
+3,Project,"Each project is typically designed to produce a distinct output, rather than a repetitive process",folder,TRUE
+4,Process,a series of actions or steps taken in order to achieve a particular end,p-square,TRUE
+5,Entity,a thing with distinct and independent existence,info-square,TRUE
+6,Attribute,"an object closely associated with or belonging to a specific person, thing, or office",key,TRUE
+7,Location,a particular place or position,house,TRUE
+8,System,a set of things working together as parts of a mechanism,app,TRUE
+9,Application,a piece of software designed to perform a specific task or a set of tasks for a user,app-indicator,TRUE
+10,Association,a relationship between two entities normally expressing cardinality,link,TRUE
+11,Person,a real world thing,person,TRUE

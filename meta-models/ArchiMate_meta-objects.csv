@@ -1,0 +1,11 @@
+id,name,description,system
+1,Business Actor,Represents an organizational entity involved in business processes,False
+2,Business Role,Represents a responsibility assigned to an actor,False
+3,Business Process,Describes a sequence of business behaviors,False
+4,Application Component,Encapsulates application functionality,False
+5,Application Service,Exposes application behavior to its environment,False
+6,Technology Node,Represents a computational resource,False
+7,Artifact,A physical piece of data used or produced in processes,False
+8,Capability,An ability that an active structure element possesses,False
+9,Course of Action,An approach or plan for achieving a goal,False
+10,Value Stream,A sequence of activities creating customer value,False

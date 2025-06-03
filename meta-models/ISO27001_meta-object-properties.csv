@@ -1,0 +1,6 @@
+id,name,label,type_IDs,dataType,widget,options,system
+1,id,ID,"301,302,303,304,305,306",short text,text input,,True
+2,name,Name,"301,302,303,304,305,306",short text,text input,,True
+3,description,Description,"301,302,303,304,305,306",long text,text area,,False
+4,owner,Owner,"301,302,303,304,305",short text,text input,,False
+5,status,Status,"301,303,305",short text,select,"Planned,Implemented,Reviewed",False

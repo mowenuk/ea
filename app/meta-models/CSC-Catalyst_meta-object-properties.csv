@@ -1,0 +1,8 @@
+id,name,label,type_IDs,dataType,widget,options,system
+1,id,ID,"1,2,3,4,5,6,7,8,9,10",short text,text input,,True
+2,name,Name,"1,2,3,4,5,6,7,8,9,10",short text,text input,,True
+3,owner,Owner,"1,2,4,6,7",short text,text input,,False
+4,status,Status,"2,4,5",short text,select,"Proposed,Active,Completed",False
+5,priority,Priority,"1,2,4",short text,select,"High,Medium,Low",False
+6,impact,Impact,"4,5",short text,select,"High,Medium,Low",False
+7,value,Value,"1,6",number,text input,,False
