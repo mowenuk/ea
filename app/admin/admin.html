@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html>
-<head>...</head>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin: Metamodel Management</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body { background-color: #f8f9fa; }
+    #previewContainer, #tableContainer { margin-top: 1rem; }
+    table.table td input.form-control { width: 100%; }
+  </style>
+</head>
 <body>
-  <h1>Admin: Metamodel Management</h1>
-  <select id="metamodelSelector"></select>
-  <div id="previewContainer"></div>
-  <button id="saveMetaBtn">Save Metaattributes</button>
+  <div class="container py-4">
+    <h1 class="mb-4 text-center">Admin: Metamodel Management</h1>
+
+    <!-- Metamodel Selector -->
+    <div class="form-group">
+      <label for="metamodelSelector" class="font-weight-bold">Select Metamodel:</label>
+      <select id="metamodelSelector" class="form-control w-auto"></select>
+    </div>
+
+    <!-- Preview Form for Metaattributes -->
+    <div id="previewContainer"></div>
+    <button id="saveMetaBtn" class="btn btn-success mt-2" disabled>Save Metaattributes CSV</button>
+
+    <!-- Table of Current Metaattributes -->
+    <div id="tableContainer"></div>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Common CSV Manager -->
   <script type="module" src="../common/csvManager.js"></script>
+  <!-- Admin Logic -->
   <script type="module" src="admin.js"></script>
 </body>
 </html>

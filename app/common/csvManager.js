@@ -1,23 +1,31 @@
-// parse/generate CSV
+// common/csvManager.js
+
+// Parse CSV text into headers array and data array of objects.
 export function parseCSV(text) {
-  const lines = text.replace(/^\uFEFF/, '').trim().split(/\r?\n/).filter(l=>l);
-  const headers = lines[0].split(',').map(h=>h.trim());
+  const lines = text.replace(/^\uFEFF/, '').trim().split(/\r?\n/).filter(l => l);
+  if (!lines.length) return { headers: [], data: [] };
+  const headers = lines[0].split(',').map(h => h.trim());
   const data = lines.slice(1).map(ln => {
     const vals = ln.split(',');
     const obj = {};
-    headers.forEach((h,i) => obj[h] = vals[i] || '');
+    headers.forEach((h, i) => { obj[h] = vals[i] || ''; });
     return obj;
   });
   return { headers, data };
 }
 
+// Generate CSV text from headers array and data array of objects.
 export function generateCSV(headers, data) {
   const lines = [headers.join(',')];
-  data.forEach(row => lines.push(headers.map(h=>row[h]||'').join(',')));
+  data.forEach(row => {
+    lines.push(headers.map(h => row[h] || '').join(','));
+  });
   return lines.join('\n');
 }
 
-// render preview form for a layout
+// Render a preview form into container, based on layout definitions.
+// layout: array of { field, label, type, readonly }
+// initialValues: object mapping field -> value (optional)
 export function renderPreviewForm(layout, container, initialValues = {}) {
   container.innerHTML = '';
   const form = document.createElement('form');
